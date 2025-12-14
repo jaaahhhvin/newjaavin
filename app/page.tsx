@@ -4,7 +4,7 @@
 
 export default function Home() {
   const handlePronounce = () => {
-    const utterance = new SpeechSynthesisUtterance("JAAH-vin");
+    const utterance = new SpeechSynthesisUtterance("JAV-vin");
     utterance.rate = 0.8;
 
     // Try to use a male voice

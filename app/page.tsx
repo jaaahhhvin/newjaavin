@@ -4,7 +4,7 @@
 
 export default function Home() {
   const handlePronounce = () => {
-    const utterance = new SpeechSynthesisUtterance("JAV-vin");
+    const utterance = new SpeechSynthesisUtterance("JAV-in");
     utterance.rate = 0.8;
 
     // Try to use a male voice
@@ -121,7 +121,7 @@ export default function Home() {
               className="group flex items-center gap-1.5 text-sm text-zinc-500 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-200 transition-colors"
               aria-label="Pronounce name"
             >
-              <span className="text-xs">/ˈdʒɑːvɪn/</span>
+              <span className="text-xs">/ˈdʒævɪn/</span>
               <svg
                 className="w-4 h-4"
                 fill="none"

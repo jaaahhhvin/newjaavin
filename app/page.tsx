@@ -45,10 +45,6 @@ export default function Home() {
           label: "IPEX (Software Engineering Intern, 2023)",
           desc: "Shipped .NET file transfer service; cut downtime from 14% to 2%.",
         },
-        {
-          label: "FRC 1325 (Software Co-Lead)",
-          desc: "Autonomous + vision control in Java; awarded excellence in engineering at Worlds.",
-        },
       ],
     },
     {
@@ -73,11 +69,15 @@ export default function Home() {
       ],
     },
     {
-      title: "Student Design Team",
+      title: "Student Design Teams",
       items: [
         {
           label: "McMaster Rocketry (Controls PM)",
           desc: "Led a 15-person controls team; integrated avionics, telemetry, and data acquisition systems.",
+        },
+        {
+          label: "FRC 1325 (Software Co-Lead)",
+          desc: "Autonomous + vision control in Java; awarded excellence in engineering at Worlds.",
         },
       ],
     },

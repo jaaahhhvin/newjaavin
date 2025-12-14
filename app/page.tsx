@@ -25,7 +25,7 @@ export default function Home() {
 
   const links = [
     { label: "email", href: "mailto:hi@jaavin.ca" },
-    { label: "resume", href: "/resume.pdf" },
+    { label: "resume", href: "/Jaavin_Mohanakumar_Resume.pdf" },
     { label: "github", href: "https://github.com/UnloadingGnat" },
     { label: "linkedin", href: "https://linkedin.com/in/jaavin" },
   ];
@@ -102,12 +102,12 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-zinc-50 text-zinc-950 dark:bg-black dark:text-zinc-50">
-      <main className="mx-auto w-full max-w-3xl px-6 py-24 sm:px-10">
+      <main className="mx-auto w-full max-w-3xl px-6 py-16 sm:px-10 sm:py-24">
         {/* Header */}
         <header className="text-center sm:text-left">
-          <div className="flex items-center justify-center sm:justify-start gap-3">
+          <div className="flex flex-col items-center sm:items-start gap-2">
             <a
-              href="https://github.com/UnloadingGnat"
+              href="/Jaavin_Mohanakumar_Resume.pdf"
               className="inline-block"
               target="_blank"
               rel="noreferrer"
@@ -138,11 +138,11 @@ export default function Home() {
             </button>
           </div>
 
-          <p className="mt-3 text-base leading-7 text-zinc-600 dark:text-zinc-400">
+          <p className="mt-3 text-sm sm:text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
             computer engineering @ mcmaster (apr 2027) · high-performance hardware + software systems
           </p>
 
-          <p className="mt-4 text-base leading-7 text-zinc-600 dark:text-zinc-400">
+          <p className="mt-4 text-sm sm:text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
             interested in computer architecture, and skilled in using c/c++,
             systemverilog, java and various scripting languages in that context.
             honest and open collaborator, with leadership experience and a

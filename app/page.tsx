@@ -142,7 +142,7 @@ export default function Home() {
             computer engineering @ mcmaster (apr 2027) · high-performance hardware + software systems
           </p>
 
-          <p className="mt-4 text-sm sm:text-base leading-relaxed text-zinc-600 dark:text-zinc-400">
+          <p className="mt-4 text-sm sm:text-base leading-relaxed text-zinc-900 dark:text-zinc-100 italic">
             interested in computer architecture, and skilled in using c/c++,
             systemverilog, java and various scripting languages in that context.
             honest and open collaborator, with leadership experience and a

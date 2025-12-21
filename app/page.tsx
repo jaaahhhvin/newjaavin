@@ -59,12 +59,12 @@ export default function Home() {
           desc: "MSP432 + ToF + stepper scanning; Python/Open3D live point-cloud visualization.",
         },
         {
-          label: "WIFOM? (Assistive device for visually impaired)",
-          desc: "Dual ESP32-CAM + cloud ML; audio/haptics alerts under $40 with <2s latency.",
+          label: "WIFOM?",
+          desc: "Assistive device for visually impaired, Dual ESP32-CAM + cloud ML; audio/haptics alerts under $40 with <2s latency.",
         },
         {
-          label: "MeGPT (AI SaaS)",
-          desc: "Launched product site; reached 2.2K visitors in 24 hours and featured on mcmaster news.",
+          label: "MeGPT",
+          desc: "Launched AI SaaS platform; reached 2.2K visitors in 24 hours and featured on mcmaster news.",
         },
       ],
     },

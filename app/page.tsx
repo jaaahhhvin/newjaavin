@@ -26,7 +26,7 @@ export default function Home() {
   const links = [
     { label: "email", href: "mailto:hi@jaavin.ca" },
     { label: "resume", href: "/Jaavin_Mohanakumar_Resume.pdf" },
-    { label: "github", href: "https://github.com/UnloadingGnat" },
+    { label: "github", href: "https://github.com/jaaahhhvin" },
     { label: "linkedin", href: "https://linkedin.com/in/jaavin" },
   ];
 
